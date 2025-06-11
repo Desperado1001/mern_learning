@@ -1,0 +1,32 @@
+{
+  "name": "javascript-tutorials-embedded-to-fullstack",
+  "version": "1.0.0",
+  "description": "JavaScript学习教程 - 面向有嵌入式开发经验的程序员",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tutorials/01-basics/01-type-system.js",
+    "basics": "node tutorials/01-basics/01-type-system.js && node tutorials/01-basics/02-variable-scope.js && node tutorials/01-basics/03-functions.js",
+    "advanced": "node tutorials/02-advanced/01-prototypes-classes.js && node tutorials/02-advanced/02-closures-advanced.js",
+    "async": "node tutorials/03-async/01-event-loop.js && node tutorials/03-async/02-promises-async-await.js",
+    "modules": "node tutorials/04-modules/01-module-systems.js && node tutorials/04-modules/02-build-tools.js",
+    "all": "npm run basics && npm run advanced && npm run async && npm run modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "tutorial",
+    "embedded",
+    "fullstack",
+    "education",
+    "programming"
+  ],
+  "author": "JavaScript学习指导",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/javascript-tutorials-embedded-to-fullstack.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
