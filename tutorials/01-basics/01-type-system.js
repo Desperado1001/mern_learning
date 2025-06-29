@@ -9,12 +9,14 @@ console.log('=== JavaScript类型系统对比 ===\n');
 console.log('1. 基本数据类型：');
 
 // JavaScript: 动态类型，运行时确定
+var n1 = 1; 
 let number = 42;           // C: int number = 42;
 let string = "Hello";      // C: char string[] = "Hello";
 let boolean = true;        // C: bool boolean = true;
 let undefined_var;         // C: 未初始化变量是未定义行为
 let null_var = null;       // C: NULL指针
 
+// typeof 返回数据类型
 console.log('number:', typeof number, '=', number);
 console.log('string:', typeof string, '=', string);
 console.log('boolean:', typeof boolean, '=', boolean);
